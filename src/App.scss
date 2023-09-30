@@ -1,0 +1,14 @@
+$headcolor : #59778e;
+$seccolor : #394f62;
+$bodycolor : #4e657a;
+body{
+  color: #fff;
+  background-color: $bodycolor;
+}
+.App {
+  h3{
+    background-color: $headcolor;
+  }
+}
+
+

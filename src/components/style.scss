@@ -1,0 +1,217 @@
+$headcolor : #59778e;
+$seccolor : #394f62;
+$bodycolor : #4e657a;
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    .loginwrap{
+        width: 40%;
+        background-color: $seccolor;
+        padding: 20px;
+
+        h6{
+            text-align: center;
+        }
+        input{
+            background-color: $bodycolor;
+            color: #fff;
+        }
+    }
+    @media only screen and (max-width:760px) {
+        .loginwrap{
+            width: 90%;
+        }
+    }
+}
+.header{
+    background-color: $headcolor;
+    p{
+        text-decoration: none;
+        color: #fff;
+        margin-right: 20px;
+        text-align: center;
+    }
+    span{
+        font-size: 28px;
+    }
+    Link{
+        text-decoration: none;
+        color: #394f62;
+    }
+    p{
+        padding: 7px;
+    }
+    p:hover{
+        background-color: $seccolor;
+        border-radius: 10px;
+    }
+    
+}
+
+.dashcont{
+    .borders{
+        background-color: $seccolor;
+    }
+    .tablesec{
+        background-color: $seccolor;
+    }
+    .table-stiped{
+        thead tr th{
+            background-color: $bodycolor;
+            color: #fff;
+        }
+        tbody tr td{
+            background-color: $seccolor;
+            color: #fff;
+        }
+    }
+    .notgrid img{
+        height: 75px;
+        width: 85px;
+        border-radius: 35px;
+    }
+    .notgrid{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .notgridcol{
+        background-color: $headcolor;
+        border-radius: 10px;
+
+    }
+    .dashTable{
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+.productcont{
+    .prodList{
+        background-color: $seccolor;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .prodcatlist{
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .trash{
+        background-color: $seccolor;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+    th{
+        background-color: $bodycolor;
+        color: #fff;
+    }
+    td{
+        background-color: $bodycolor;
+        color: #fff;
+    }
+    .prodcatlist{
+        background-color: $bodycolor;
+        padding: 12px;
+    }
+    .prodCat{
+        background-color: $seccolor;
+    }
+    .prodcatlist h6{
+        min-width: 80%;
+    }
+    .popupcat{
+        background-color: $seccolor;
+    }
+    .popupcat input{
+        background-color: $bodycolor;
+        color: #fff;
+    }
+    .addcatrow{
+        position: absolute;
+        top: 17vw;
+        left: 5vw;
+        width: 90vw;
+        box-shadow: 0 0 4px 4px rgb(217, 233, 236);
+    
+    }
+    .closeaddcat{
+        position: absolute;
+        top: 20px;
+        right: 17px;
+    
+    }
+    
+}
+
+.accountscont{
+    .acclistcont{
+        background-color: $seccolor;
+    }
+    .imgAvatar{
+        height: 180px;
+        width: 190px;
+        background-color: $headcolor;
+    }
+    .accsetting{
+        background-color: $seccolor;
+    }
+    input{
+        background-color: $headcolor;
+    }
+    select{
+        background-color: $headcolor;
+    }
+    option{
+        background-color: $headcolor;
+        color: #fff;
+    }
+    .imgAvatar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .trashimg{
+        display: none;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        
+    }
+    .imgAvatar:hover .trashimg{
+        display: block;
+        cursor: pointer;
+        background-color: #ae8c42;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+    .imgAvatar img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.addProdcont{
+    .imgAvatar{
+        height: 180px;
+        width: 190px;
+        background-color: $headcolor;
+    }
+    .row{
+        background-color: $seccolor;
+    }
+    select{
+        background-color: $headcolor;
+    }
+    option{
+        background-color: $headcolor;
+        color: #fff;
+    }
+    input{
+        background-color: $headcolor;
+        color:  #fff;;
+    }
+}
